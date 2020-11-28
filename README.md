@@ -1,4 +1,4 @@
-# Myanmar Cyber Youth Front-end Core Codes
+# MCY Front-end Core Codes
 
 # Installation
 
