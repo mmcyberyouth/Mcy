@@ -14,7 +14,7 @@ git clone https://github.com/https-github-com-amm834/Mcy.git
 - index.html
 
 # File Structure
-
+```
 .
 ├── README.md
 ├── css
@@ -49,3 +49,4 @@ git clone https://github.com/https-github-com-amm834/Mcy.git
 │   ├── progrmmer.png
 │   └── reading-book.png
 └── index.html
+```
