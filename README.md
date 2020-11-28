@@ -50,3 +50,5 @@ git clone https://github.com/https-github-com-amm834/Mcy.git
 │   └── reading-book.png
 └── index.html
 ```
+# Demo
+https://mcy-frontend-preview.netlify.app/
