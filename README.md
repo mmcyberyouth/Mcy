@@ -8,7 +8,7 @@ git clone https://github.com/https-github-com-amm834/Mcy.git
 ```
 # Access
 - All Members In Can Read,Write and Push when cloned
-- 
+
 
 # Stable File
 - index.html
