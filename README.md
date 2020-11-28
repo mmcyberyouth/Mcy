@@ -17,7 +17,7 @@ git clone https://github.com/https-github-com-amm834/Mcy.git
 <<<<<<< HEAD
 
 =======
->>>>>>> 04ded8c2e81af6890ceefbbd3477b000c4a0eb15
+
 ```
 .
 ├── README.md
@@ -27,28 +27,11 @@ git clone https://github.com/https-github-com-amm834/Mcy.git
 │   └── app.css
 ├── img
 │   ├── coding_img.png
-<<<<<<< HEAD
 │   ├── js.png
 │   └── myanmar.svg
 ├── index.html
 └── test
     └── test.html
 ```
-=======
-│   ├── coffee-cup.svg
-│   ├── computer.jpg
-│   ├── computer1.jpg
-│   ├── dual-screen-1745705_1280.png
-│   ├── javascript-736400_640.png
-│   ├── javscript.png
-│   ├── laptop.jpg
-│   ├── myanmar.svg
-│   ├── php.png
-│   ├── programming.svg
-│   ├── progrmmer.png
-│   └── reading-book.png
-└── index.html
-```
 # Demo
 https://mcy-frontend-preview.netlify.app/
->>>>>>> 04ded8c2e81af6890ceefbbd3477b000c4a0eb15
