@@ -14,13 +14,11 @@ git clone https://github.com/https-github-com-amm834/Mcy.git
 - index.html
 
 # File Structure
-
 ```
 .
+├── LICENSE
 ├── README.md
 ├── css
-│   ├── animate.css
-│   ├── animate.min.css
 │   └── app.css
 ├── img
 │   ├── coding_img.png
@@ -30,14 +28,9 @@ git clone https://github.com/https-github-com-amm834/Mcy.git
 └── test
     └── test.html
 ```
-
 # reUsable CSS
 
 ```css
-body{
-    background-color: #150a28;
-    color: #b2b7dd;
-}
 
 /* Background Colors */
 

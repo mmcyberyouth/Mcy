@@ -8,7 +8,9 @@ body{
 .bg-bgrey{
     background:#292850;
 }
-
+.bg-lightgreen{
+  background: #20d131;
+}
 /*  Text Colors */
 
 .text-bgray{
@@ -17,6 +19,7 @@ body{
 .text-sgray{
   color: #4b5b8d;
 }
+
 
 /* Remove Underline */
 
