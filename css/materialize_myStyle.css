@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+			
+html{
+	font-family: 'Oswald', sans-serif !important;
+}
+
+body{width: 100%;
+	height: 100%;
+	background-image: linear-gradient(rgb(41, 40, 80),rgb(17, 6, 36));
+	box-sizing: border-box;
+}
+
+.root{
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 90%;
+}
+
+/* navbar */
+.nav{
+	background-color: #292850;
+}
+
+.brand-logo {
+	margin-left: 8vw
+}
+
+.sidenav {
+	background-color: #150A28;
+	color: #fff;
+}
+
+.brand-img{
+	/* width : 10px; */
+	height: 35px;
+	margin-right: 3px;
+	border-radius: 100%;
+}
+
+/* header */
+.banner{
+	background: url(https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80) rgba(0,0,0,0.7);
+	background-size:cover;
+}
+
+.header-title{
+	letter-spacing: 0.1rem;
+	font-size: 2.2rem;
+	font-weight: 700!important;
+	margin: 0;
+	padding-top: 2.3rem ;
+}
+
+.header-text{
+	padding-top: 1rem;
+	padding-bottom: 1.8rem;
+}
+
+.btn-link{
+	word-wrap: break-word;
+	cursor: pointer;
+	border: 0.1rem solid #fff;
+	border-radius: 20px;
+	margin-bottom: 3rem;
+}
+/* feature */
+.feature-title{
+	margin-top: 2.5rem !important;
+	margin-bottom: 0% !important;
+	padding: 0% !important;
+}
+
+.carousel{
+	height: 185px;
+}
+
+.carousel-item{
+	/* width: 350px !important; */
+	height: auto !important;
+}
+
+/* about-us */
+.container-fluid{
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;	
+}
+
+#about img {
+	width: 85%;
+}
+
+.about_form{
+	padding: 0 1.5rem !important;
+	border: 1px solid teal;
+	border-radius: 25px;
+}
+
+.parallax-container {
+	height: 250px;
+}
