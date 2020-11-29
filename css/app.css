@@ -64,3 +64,9 @@ footer{
 .svg{
   width:20px;
 }
+
+/*  Fix Card Image */
+.fix-img{
+  width: 150px;
+  height: 150px;
+}
