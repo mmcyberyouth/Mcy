@@ -14,6 +14,7 @@ body{
 .bg-lightgreen{
   background: #20d131;
 }
+
 /*  Text Colors */
 
 .text-bgray{
@@ -29,6 +30,7 @@ body{
 a{
   text-decoration: none;
 }
+
 /* Text Shadow */
 .text-shadow-sm{
   text-shadow: 1px 3px 1px rgba(0,0,0,0.1),

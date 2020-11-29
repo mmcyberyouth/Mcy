@@ -3,15 +3,16 @@
 # Demo
 https://mcy-frontend-preview.netlify.app/
 
-# Installation
+# Clone Repo
 
 ```
 git clone https://github.com/https-github-com-amm834/Mcy.git
 
 ```
-# Access
-- All Members In Can Read,Write and Push when cloned
-- 
+
+# Who can access to write?
+Members of `Myanmar Cyber Youth Org`
+
 
 # Stable File
 - index.html
@@ -24,21 +25,21 @@ git clone https://github.com/https-github-com-amm834/Mcy.git
 ├── css
 │   └── app.css
 ├── img
-│   ├── coding_img.png
-│   ├── js.png
-│   └── myanmar.svg
-├── index.html
+├── index.html 
 └── test
     └── test.html
 ```
-# reUsable CSS
+
+# Using New OOCSS Classes
 
 ```css
-
 /* Background Colors */
 
 .bg-bgrey{
     background:#292850;
+}
+.bg-lightgreen{
+  background: #20d131;
 }
 
 /*  Text Colors */
@@ -50,20 +51,15 @@ git clone https://github.com/https-github-com-amm834/Mcy.git
   color: #4b5b8d;
 }
 
-/* Remove Underline */
-
-a{
-  text-decoration: none;
-}
-
 /* Text Shadow */
-
-.ts-sm{
-  text-shadow: 1px 3px 1px #d6cb55;
+.text-shadow-sm{
+  text-shadow: 1px 3px 1px rgba(0,0,0,0.1),
+  1px 3px 1px rgba(0,0,0,0.1)
+  ,
+    1px 3px 1px rgba(0,0,0,0.1);
 }
 
 /* Reduce Width */
-
 .rwidth{
   width: 50px;
   height: auto;
@@ -73,4 +69,15 @@ a{
 .svg{
   width:20px;
 }
+
+/*  Fix Card Image */
+```diff
++ added to fix images
+```
+.fix-img{
+  width: 150px;
+  height: 150px;
+}
+
+
 ```
