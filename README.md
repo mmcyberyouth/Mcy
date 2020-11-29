@@ -25,9 +25,9 @@ Members of `Myanmar Cyber Youth Org`
 ├── css
 │   └── app.css
 ├── img
-├── index.html 
+├── index.html
 └── test
-    └── test.html
+└── test.html
 ```
 
 # Using New OOCSS Classes
@@ -35,49 +35,47 @@ Members of `Myanmar Cyber Youth Org`
 ```css
 /* Background Colors */
 
-.bg-bgrey{
-    background:#292850;
+.bg-bgrey {
+  background: #292850;
 }
-.bg-lightgreen{
+.bg-lightgreen {
   background: #20d131;
 }
 
 /*  Text Colors */
 
-.text-bgray{
+.text-bgray {
   color: #5b7fb1;
 }
-.text-sgray{
+.text-sgray {
   color: #4b5b8d;
 }
 
 /* Text Shadow */
-.text-shadow-sm{
+.text-shadow-sm {
   text-shadow: 1px 3px 1px rgba(0,0,0,0.1),
   1px 3px 1px rgba(0,0,0,0.1)
   ,
-    1px 3px 1px rgba(0,0,0,0.1);
+  1px 3px 1px rgba(0,0,0,0.1);
 }
 
 /* Reduce Width */
-.rwidth{
+.rwidth {
   width: 50px;
   height: auto;
 }
 
 /* Svg Icon Width */
-.svg{
-  width:20px;
+.svg {
+  width: 20px;
 }
+```
+```diff
 
 /*  Fix Card Image */
-```diff
-+ added to fix images
-```
-.fix-img{
-  width: 150px;
-  height: 150px;
++ .fix-img{
++ width: 150px;
++ height: 150px;
 }
-
 
 ```
