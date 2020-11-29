@@ -27,8 +27,10 @@ a{
   text-decoration: none;
 }
 /* Text Shadow */
-.ts-sm{
-  text-shadow: 1px 3px 1px #d6cb55;
+.text-shadow-sm{
+  text-shadow: 1px 3px 1px rgba(0,0,0,0.1),
+  1px 3px 1px rgba(0,0,0,0.1)
+  ;
 }
 
 /* Reduce Width */
@@ -52,13 +54,6 @@ footer{
     
 }
 
-@media only screen and (max-width:462px)
-{
-    .banner
-    {
-        height: 83vh;
-    }
-}
 
 /* Svg Icon Width */
 .svg{
@@ -66,7 +61,9 @@ footer{
 }
 
 /*  Fix Card Image */
+
 .fix-img{
   width: 150px;
   height: 150px;
 }
+
