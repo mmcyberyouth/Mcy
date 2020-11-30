@@ -32517,6 +32517,12 @@ video {
   font-weight: 800;
 }
 
+.sticky-top{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

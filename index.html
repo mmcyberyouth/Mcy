@@ -11,8 +11,8 @@
 </head>
 <body>
    <!-- Navbar -->
-  <div class="font-sans antialiased bg-green-500 mb-3">
-    <nav class="flex items-center justify-between flex-wrap bg-teal p-6">
+  <div class="font-sans antialiased bg-green-500 mb-3 sticky-top z-10">
+    <nav class="flex items-center justify-between flex-wrap bg-teal p-4">
       <div class="flex items-center flex-no-shrink text-white mr-6">
         <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" /></svg>
         <span class="font-semibold text-xl tracking-tight">MCY Blog</span>
@@ -40,7 +40,7 @@
           <a href="#responsive-header" class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-green-900 mr-4">
             Contact Us
           </a>
-          <button class="no-underline inline-block mt-4 sm:inline-block sm:mt-0 text-white hover:text-green-900" onclick="openDropdown(event,'nav-dropdown')">
+          <button class="no-underline inline-block mt-4 sm:inline-block sm:mt-0 text-white hover:text-green-900 focus:outline-none" onclick="openDropdown(event,'nav-dropdown')">
             Member
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 inline-block">
               <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -66,42 +66,10 @@
   </div>
 
 <!-- Blog Posts -->
-<div class="container mb-3">
+<div class="container py-3">
   <div class="space-y-4">
   <div class="card shadow-lg">
-  <img src="https://images.unsplash.com/photo-1514241516423-6c0a5e031aa2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8c3VuJTIwcmlzZXxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=700&q=60" class="img-fluid rounded-t-lg" alt="404">
-  <div class="card-text">
-    <h1 class="text-2xl fw-boldest mb-3">MCY</h1>
-  <p>
-        MCY သည် မြန်မာပြည်မှ တက်သစ်စ Developer လူငယ်များပေါင်းစည်းတည်ထောင်ထားသော Community ဖြစ်ပါသည်။MCY မှ Beginner များအတွက်သင်တန်းများကိုပို့ချပေးလျက်ရှိပါသည်။ Young Professional Developer များ Join နိုင်သောအဖွဲ့ဖြစ်ပြီး Developer ဖြစ်လိုသူတိုင်းအတွက်သင်တန်းများလည်းတက်ရောက်နိုင်သော Community တစ်ခုဖြစ်ပါသည်။
-  </p>
-   <a href="#detail" class="btn-success float-right mt-5" type="button">
-  See More
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 inline-block">
-  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
-</svg>
-</a>
-
-  </div>
-</div>
-  <div class="card shadow-lg">
-  <img src="https://images.unsplash.com/photo-1514241516423-6c0a5e031aa2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8c3VuJTIwcmlzZXxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=700&q=60" class="img-fluid rounded-t-lg" alt="404">
-  <div class="card-text">
-    <h1 class="text-2xl fw-boldest mb-3">MCY</h1>
-  <p>
-        MCY သည် မြန်မာပြည်မှ တက်သစ်စ Developer လူငယ်များပေါင်းစည်းတည်ထောင်ထားသော Community ဖြစ်ပါသည်။MCY မှ Beginner များအတွက်သင်တန်းများကိုပို့ချပေးလျက်ရှိပါသည်။ Young Professional Developer များ Join နိုင်သောအဖွဲ့ဖြစ်ပြီး Developer ဖြစ်လိုသူတိုင်းအတွက်သင်တန်းများလည်းတက်ရောက်နိုင်သော Community တစ်ခုဖြစ်ပါသည်။
-  </p>
-   <a href="#detail" class="btn-success float-right mt-5" type="button">
-  See More
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 inline-block">
-  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
-</svg>
-</a>
-
-  </div>
-</div>
-  <div class="card shadow-lg">
-  <img src="https://images.unsplash.com/photo-1514241516423-6c0a5e031aa2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8c3VuJTIwcmlzZXxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=700&q=60" class="img-fluid rounded-t-lg" alt="404">
+  <img src="https://images.unsplash.com/photo-1514241516423-6c0a5e031aa2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8c3VuJTIwcmlzZXxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=700&q=60" class="img-fluid rounded-t-lg transition duration-500 hover:opacity-70 hover:duration-500" alt="404">
   <div class="card-text">
     <h1 class="text-2xl fw-boldest mb-3">MCY</h1>
   <p>

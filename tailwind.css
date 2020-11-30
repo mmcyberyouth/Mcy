@@ -25,3 +25,6 @@
 .fw-boldest{
   @apply font-extrabold;
 }
+.sticky-top{
+  @apply sticky  top-0;
+}
