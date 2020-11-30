@@ -1,0 +1,29 @@
+{
+  "name": "blog-template",
+  "version": "1.0.0",
+  "description": "For MCY Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/https-github-com-amm834/Mcy.git"
+  },
+  "keywords": [
+    "mcy",
+    "blog"
+  ],
+  "author": "Aung Myat Moe (@amm834)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/https-github-com-amm834/Mcy/issues"
+  },
+  "homepage": "https://github.com/https-github-com-amm834/Mcy#readme",
+  "dependencies": {
+    "@tailwindcss/typography": "^0.3.1",
+    "autoprefixer": "^10.0.4",
+    "postcss": "^8.1.10",
+    "tailwindcss": "^2.0.1"
+  }
+}
