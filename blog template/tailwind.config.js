@@ -11,6 +11,10 @@ module.exports = {
       'full': '100%',
     },
     extend: {},
+    container: {
+      center: true,
+      padding: '2rem',
+    },
   },
   variants: {
     extend: {},

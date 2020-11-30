@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.card{
+  @apply flex flex-col min-w-0 rounded-lg break-words border bg-white border-gray-300;
+}
+.img-fluid{
+  @apply w-full h-96;
+}
+.btn-success{
+  @apply bg-green-500 text-white  px-4 py-2 rounded  outline-none focus:outline-none;
+}
+.card-text{
+  @apply flex-auto p-6;
+}
+.fw-bold{
+  @apply font-medium;
+}
+.fw-semi-bold{
+ @apply font-semibold;
+}
+.fw-bolder{
+  @apply font-bold;
+}
+.fw-boldest{
+  @apply font-extrabold;
+}
