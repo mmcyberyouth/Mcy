@@ -4,6 +4,17 @@
 .card{
   @apply flex flex-col min-w-0 rounded-lg break-words border bg-white border-gray-300;
 }
+.card-img{
+  @apply object-fill w-full rounded-t-lg;
+}
+.card-text{
+  @apply flex-auto p-6;
+}
+
+.card-footer{
+  @apply mt-2 p-3;
+}
+
 .img-fluid{
   @apply w-full h-96;
 }
@@ -18,9 +29,6 @@
 }
 
 
-.card-text{
-  @apply flex-auto p-6;
-}
 .fw-bold{
   @apply font-medium;
 }
