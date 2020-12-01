@@ -10,6 +10,13 @@
 .btn-success{
   @apply bg-green-500 text-white  px-4 py-2 rounded  outline-none focus:outline-none;
 }
+.btn-primary{
+  @apply bg-blue-500 text-white  px-4 py-2 rounded  outline-none focus:outline-none;
+}
+.btn-indigo{
+  @apply bg-indigo-500 text-white  px-4 py-2 rounded  outline-none focus:outline-none;
+}
+
 .card-text{
   @apply flex-auto p-6;
 }
