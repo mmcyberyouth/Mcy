@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="assets/css/app.css">
 </head>
 <body>
-  
+
   <!-- Navbar -->
   <div class="font-sans antialiased bg-green-500 sticky-top z-10">
     <nav class="flex items-center justify-between flex-wrap bg-teal p-4">
@@ -19,7 +19,7 @@
         <span class="font-semibold text-xl tracking-tight">MCY Blog</span>
       </div>
       <div class="block sm:hidden">
-        <button id="toggle" class="flex items-center px-3 py-2 border rounded text-teal-lighter border-teal-light hover:text-white focus:outline-none focus:bg-blue-500">
+        <button id="toggle" class="flex items-center px-3 py-2 border rounded text-teal-lighter border-teal-light hover:text-white focus:outline-none">
           <svg class="text-white fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" /></svg>
         </button>
       </div>
@@ -68,24 +68,31 @@
 
   <!-- Hero Section -->
 
-<div class="bg-opacity-50" style="background-image: url('https://images.unsplash.com/photo-1441311956160-78a471e0638d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80');">
-<div class="py-20 text-center md:h-4/6">
-    <h1 class="text-xl  fw-boldest text-white shadow-lg mb-3">
-    MCY Blog မှကြိုဆိုပါတယ်။
-  </h1>
-    <p class="text-white">
-      ယခု Blog မှာ MCYရဲ့ Latest Info တွေနှင့် Programming Articles များကိုမျှဝေပေးသွားးမှာဖြစ်ပါတယ်။
-    </p>
-</div>
-</div>
+  <div class="bg-opacity-50" style="background-image: url('https://images.unsplash.com/photo-1441311956160-78a471e0638d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80');">
+    <div class="py-20 text-center md:h-4/6">
+      <h1 class="text-xl  fw-boldest text-white shadow-lg mb-3">
+        MCY Blog မှကြိုဆိုပါတယ်။
+      </h1>
+      <p class="text-white">
+        ယခု Blog မှာ MCYရဲ့ Latest Info တွေနှင့် Programming Articles များကိုမျှဝေပေးသွားးမှာဖြစ်ပါတယ်။
+      </p>
+    </div>
+  </div>
+
   <!-- Blog Posts -->
-  <div class="container py-3">
+  <div class="container py-3 bg-gray-700">
     <div class="space-y-4">
       <div class="card shadow-lg">
-        <img src="https://images.unsplash.com/photo-1514241516423-6c0a5e031aa2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8c3VuJTIwcmlzZXxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=700&q=60" class="img-fluid rounded-t-lg transition duration-500 hover:opacity-70 hover:duration-500" alt="404">
+        <img src="https://images.unsplash.com/photo-1514241516423-6c0a5e031aa2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8c3VuJTIwcmlzZXxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=700&q=60" class=" rounded-t-lg transition duration-500 hover:opacity-70 hover:duration-500" alt="404">
         <div class="card-text">
           <h1 class="text-2xl fw-boldest mb-3 text-green-500">MCY</h1>
-          <p>
+          <p class="my-3">
+            <svg class="inline-block w-5 pb-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            5 min ago
+          </p>
+          <p class="text-gray-700">
             MCY သည် မြန်မာပြည်မှ တက်သစ်စ Developer လူငယ်များပေါင်းစည်းတည်ထောင်ထားသော Community ဖြစ်ပါသည်။MCY မှ Beginner များအတွက်သင်တန်းများကိုပို့ချပေးလျက်ရှိပါသည်။ Young Professional Developer များ Join နိုင်သောအဖွဲ့ဖြစ်ပြီး Developer ဖြစ်လိုသူတိုင်းအတွက်သင်တန်းများလည်းတက်ရောက်နိုင်သော Community တစ်ခုဖြစ်ပါသည်။
           </p>
           <a href="#detail" class="btn-success float-right mt-5" type="button">
