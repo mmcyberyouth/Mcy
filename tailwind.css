@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 .card{
-  @apply flex flex-col min-w-0 rounded-lg break-words border bg-white border-gray-300;
+  @apply flex flex-col min-w-0 rounded-lg break-words border border-gray-300;
 }
 .card-img{
   @apply object-fill w-full rounded-t-lg;
@@ -19,7 +19,7 @@
   @apply w-full h-96;
 }
 .btn-success{
-  @apply bg-green-500 text-white  px-4 py-2 rounded  outline-none focus:outline-none;
+  @apply bg-green-500 text-white   py-2 px-4 rounded  outline-none focus:outline-none;
 }
 .btn-primary{
   @apply bg-blue-500 text-white  px-4 py-2 rounded  outline-none focus:outline-none;
@@ -44,4 +44,9 @@
 .sticky-top{
   @apply sticky  top-0;
 }
-
+.form-group{
+  @apply block ml-3;
+}
+.form-control{
+ @apply form-input block w-11/12 h-8 shadow-sm border border-transparent focus:outline-none focus:border-transparent;
+}
