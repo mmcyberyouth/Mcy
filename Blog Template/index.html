@@ -1,13 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- CSS -->
   <link rel="stylesheet" href="tailwind.min.css">
   <link rel="stylesheet" href="assets/css/app.css">
-  <title>Login</title>
+  <title>Myanmar Cyber Youth (MCY)</title>
+  <meta name="description" content="Tech Blog For Myanmar And All over The World">
+  <meta name="author" content="Aumg Myat Moe">
+<meta name="MCY" content="Myanmar Cyber Youth">
 </head>
-<body class="text-gray-700 antialiased">
+<body>
 
   <!-- Navbar -->
   <div class="font-sans antialiased bg-green-500 sticky-top z-10">
@@ -46,13 +50,13 @@
             </svg>
           </button>
           <div class="hidden bg-white  text-base z-50 float-right py-2 list-none text-left rounded shadow-lg mt-1 min-w-fix" id="nav-dropdown">
-            <a href="#pablo" class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800 hover:text-gray-500">
+            <a href="register.html" class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800 hover:text-gray-500">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 inline-block">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               Register
             </a>
-            <a href="#pablo" class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800 hover:text-gray-500">
+            <a href="login.html" class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800 hover:text-gray-500">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 inline-block">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
               </svg>
@@ -64,29 +68,54 @@
     </nav>
   </div>
 
-  <!-- Login Form Section -->
-  <div class="bg-gray-700">
-    <div class="container md:flex py-5 md:justify-center">
-      <form action="" method="post" class="card bg-purple-100 my-5 md:w-9/12 md:p-5">
-        <h1 class="text-lg fw-boldest  text-center my-3">အကောင့်ဝင်ရန်</h1>
-        <div class="form-group mb-3">
-          <label for="email" class="block my-2">အီးမေးလ်လိပ်စာ</label>
-          <input type="email" name="email" class="form-control focus:ring-2 focus:ring-purple-600 " autocomplete="off">
-        </div>
-        <div class="form-group mb-3">
-          <label for="password" class="block my-2">စကားဝှက်</label>
-          <input type="password" name="password" class="form-control focus:ring-2 focus:ring-purple-600 " autocomplete="off">
-        </div>
-        <button class="btn-indigo w-10/12 mx-auto m-3 md:w-32 inline-block float-right md:ml-3">
-    ဝင်ရောက်ရန်
-  </button>
-  <a href="register.html" title="Create Account" class="block text-black text-center my-3">
-Not registered yet?
-</a>
+  <!-- Hero Section -->
 
-      </form>
+  <div class="bg-opacity-50" style="background-image: url('https://images.unsplash.com/photo-1441311956160-78a471e0638d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80');">
+    <div class="py-20 text-center md:h-4/6">
+      <h1 class="text-xl  fw-boldest text-white shadow-lg mb-3">
+        MCY Blog မှကြိုဆိုပါတယ်။
+      </h1>
+      <p class="text-white">
+        ယခု Blog မှာ MCYရဲ့ Latest Info တွေနှင့် Programming Articles များကိုမျှဝေပေးသွားးမှာဖြစ်ပါတယ်။
+      </p>
     </div>
   </div>
+
+  <!-- Blog Posts -->
+  <div class="bg-gray-700">
+    <div class="container py-3 grid grid-cols-1 gap-4 md:grid-cols-2 gap-4">
+
+      <!-- Card -->
+      <div class="card bg-white">
+        <img src="https://images.unsplash.com/photo-1514241516423-6c0a5e031aa2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8c3VuJTIwcmlzZXxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=700&q=60"
+        class="card-img h-60">
+        <!-- Card Text -->
+        <div class="card-text">
+          <h1 class="text-2xl fw-boldest text-green-500">MCY</h1>
+          <p class="my-2">
+            <svg class="inline-block w-5 pb-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            5 min ago
+          </p>
+          <p class="text-gray-700">
+            MCY သည် မြန်မာပြည်မှ တက်သစ်စ Developer လူငယ်များပေါင်းစည်းတည်ထောင်ထားသော Community ဖြစ်ပါသည်။MCY မှ Beginner များအတွက်သင်တန်းများကိုပို့ချပေးလျက်ရှိပါသည်။ Young Professional Developer များ Join နိုင်သောအဖွဲ့ဖြစ်ပြီး Developer ဖြစ်လိုသူတိုင်းအတွက်သင်တန်းများလည်းတက်ရောက်နိုင်သော Community တစ်ခုဖြစ်ပါသည်။
+          </p>
+        </div>
+        <!-- Card Footer -->
+        <footer class="card-footer">
+          <a href="#detail" class="btn-success float-right" type="button">
+            See More
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 inline-block">
+              <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </a>
+        </footer>
+      </div>
+
+    </div>
+  </div>
+
 
   <!-- Footer -->
   <footer class="bg-gray-100">
@@ -138,7 +167,10 @@ Not registered yet?
   </footer>
   <!-- Footer -->
 
+
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" charset="utf-8"></script>
-  <script src="assets/js/components.js"></script>
+  <script src="assets/js/components.js">
+  </script>
 </body>
 </html>
