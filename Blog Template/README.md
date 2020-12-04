@@ -12,3 +12,6 @@ Changing content of Language `Not Allowed ❌`
 - Color Theory
 
 `Note`:If you don't know about color harmony don't change the base codes of files.
+
+# Author
+ @amm834
