@@ -1,4 +1,6 @@
 # Blog Template
 
-# Demo
-Not Avaliable
+# Using 
+
+- Bootstrap 5
+- Tailwind CSS
